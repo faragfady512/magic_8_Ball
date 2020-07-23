@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_centerInParent="true"
+            android:background="#4600AA"
+         android:textSize="25sp"
+            android:textStyle="italic"
+            android:textColor="#D5DDDD"
+
+            android:text="@string/make_every_day_desisions_easier" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ballimageView"
+            android:layout_width="287dp"
+            android:layout_height="305dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/ball1"
+            app:srcCompat="@drawable/ball1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/addbutton"
+            android:layout_width="211dp"
+            android:layout_height="63dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:textColor="#04FDE6"
+             android:background="@color/colorPrimary"
+            android:text="@string/Add" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

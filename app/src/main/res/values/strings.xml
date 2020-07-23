@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">magic_8_Ball</string>
+    <string name="textview">TextView</string>
+    <string name="Add">Add</string>
+    <string name="ball1">balll1</string>
+    <string name="desiunsText">TextView</string>
+    <string name="make_every_day_desisions_easier">Make Every Day Desisions Easier !</string>
+</resources>
